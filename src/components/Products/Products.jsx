@@ -54,10 +54,10 @@ const Products = () => {
         <div className='mt-14 mb-12 flex justify-center'>
             <div className="container bg-gray-100 py-10 px-5">
                 {/* Header Section */}
-                <div className="text-center mb-10 max-w-[600px] mx-auto">
-                    <p data-aos="fade-up" className='text-pretty text-purple-900 py-1'>Top Selling Products For You</p>
+                <div className="text-left mb-10 mx-6 max-w-[600px] ">
+                    {/* <p data-aos="fade-up" className='text-pretty text-purple-900 py-1'>Top Selling Products For You</p> */}
                     <h1 data-aos="fade-up" className="text-2xl text-black font-bold">Top Selling Products</h1>
-                    <p data-aos="fade-up" className='text-sm text-gray-500 mt-1'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, deleniti natus! Voluptate, enim assumenda?</p>
+                    <p data-aos="fade-up" className='text-sm text-gray-500 mt-1'>Explore the top selling products and find what's best for you.</p>
                 </div>
                 {/* Body Section */}
                 <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 place-items-center gap-8'>

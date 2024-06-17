@@ -55,7 +55,7 @@ const Trending = () => {
             <div className="container bg-gray-100 py-10 px-5">
                 {/* Header Section */}
                 <div className="text-left mx-6 mb-10 max-w-[600px]">
-                    <p data-aos="fade-up" className='text-sm text-purple-900 py-1'>Top Rated Products For You</p>
+                    {/* <p data-aos="fade-up" className='text-sm text-purple-900 py-1'>Top Rated Products For You</p> */}
                     <h1 data-aos="fade-up" className="text-2xl text-black font-bold">Trending Products</h1>
                     <p data-aos="fade-up" className='text-sm text-gray-500 mt-1'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, deleniti natus! Voluptate, enim assumenda?</p>
                 </div>

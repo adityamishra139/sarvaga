@@ -27,6 +27,7 @@ const Navbar = () => {
         }
       );
 
+
       console.log(response.data); // Log the entire response object or response data for debugging
       const admin = response.data.res.isAdmin;
       if (admin) {
@@ -76,6 +77,7 @@ const Navbar = () => {
                   >
                     Log Out
                   </button>
+
                 </div>
               </div>
             ) : (

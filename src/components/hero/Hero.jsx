@@ -1,10 +1,9 @@
 import React from 'react';
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
-import image1 from '../../assets/image2.jpeg';
-import image2 from '../../assets/image2.jpeg';
-import image3 from '../../assets/image3.jpeg';
+
+import image1 from "/home/aditya/CODE/sarvaga/src/assets/sarees/product 3/_DSC1416-2.JPG";
+import image2 from "../../assets/image2.jpeg";
+import image3 from "../../assets/image3.jpeg";
+import Slider from "react-slick";
 
 const ImageList = [
   {
@@ -88,6 +87,7 @@ const Hero = () => {
                   </div>
                 </div>
               </div>
+
             </div>
           ))}
         </Slider>
